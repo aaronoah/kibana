@@ -391,12 +391,12 @@ From the command line run:
 
 ["source","shell"]
 -----------
-node --debug-brk --inspect scripts/functional_test_runner
+node --inspect scripts/functional_test_runner
 -----------
 
 This prints out a URL that you can visit in Chrome and debug your functional tests in the browser.
 
-You can also see additional logs in the terminal by running the `FunctionalTestRunner` with the `--debug` or `--verbose` flag. Add more logs with statements in your tests like
+You can also see additional logs in the terminal by running the `FunctionalTestRunner` with the `--debug` or `--verbose` flag (not node options). Add more logs with statements in your tests like
 
 ["source","js"]
 -----------
